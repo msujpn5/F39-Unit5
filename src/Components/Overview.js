@@ -11,19 +11,15 @@ function Overview() {
         <table className='overview-table'>
         <tr>
             <td>Capital: </td>
-            {currentDisplay.capital.map((e) => {
+            {currentDisplay.capital.map((e) => (
                 <td>{e}</td>
-            })}
-        </tr>
-        <tr>
-            <td>Currencies: </td>
-            <td>{currentDisplay.currencies.name}</td>
+            ))}
         </tr>
         <tr>
             <td>Continents: </td>
-            {currentDisplay.continents.map((e) => {
+            {currentDisplay.continents.map((e) => (
                 <td>{e}</td>
-            })}
+            ))}
         </tr>
         <tr>
             <td>Population: </td>
